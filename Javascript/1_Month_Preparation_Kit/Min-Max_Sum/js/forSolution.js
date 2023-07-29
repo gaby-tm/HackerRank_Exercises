@@ -20,3 +20,4 @@ function minMaxSum(arr) {
     console.log(minSum + " " + maxSum);
 
 }//function minMaxSum
+
