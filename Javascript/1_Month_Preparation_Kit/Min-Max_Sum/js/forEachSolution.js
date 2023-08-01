@@ -10,7 +10,7 @@
 
 let arr = [2,1,3,4,5];
 arr.sort();
-minMaxSum(arr);
+console.log(minMaxSum(arr));
 
 function minMaxSum(arr) {
     let sum = 0;
@@ -22,7 +22,7 @@ function minMaxSum(arr) {
     minSum = sum - arr[4];
     maxSum = sum - arr[0];
 
-    console.log(minSum + " " + maxSum);
+    return minSum + " " + maxSum;
 
 }//function minMaxSum
 
